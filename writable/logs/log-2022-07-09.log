@@ -1,0 +1,14 @@
+CRITICAL - 2022-07-09 09:45:05 --> Undefined array key "mahaller"
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Customers.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Customers->customer_edit_v('1')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Customers))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-09 09:58:43 --> Array to string conversion
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Customers.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 66)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Customers->customer_edit('1')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Customers))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

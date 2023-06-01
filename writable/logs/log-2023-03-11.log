@@ -1,0 +1,123 @@
+CRITICAL - 2023-03-11 04:51:05 --> Undefined array key "is_active"
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Cart.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 138)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cart->discount()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-11 04:52:41 --> Undefined array key "dc"
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Cart.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 136)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cart->discount()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-11 04:53:52 --> Undefined array key "dc"
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Cart.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 136)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cart->discount()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-11 04:54:23 --> Undefined array key "dc"
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Cart.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 136)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cart->discount()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-11 04:54:46 --> Undefined array key "dc"
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Cart.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 136)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cart->discount()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-11 04:55:16 --> Undefined array key "dc"
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Cart.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 136)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cart->discount()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-11 07:42:32 --> Array to string conversion
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Cart.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 143)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cart->discount()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-11 07:42:52 --> Undefined array key 0
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Cart.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 138)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cart->discount()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-11 07:46:26 --> Undefined array key "product_price"
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Cart.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 143)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cart->discount()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-03-11 07:47:33 --> Unknown column 'products.product_price-100' in 'field list'
+CRITICAL - 2023-03-11 07:47:33 --> Unknown column 'products.product_price-100' in 'field list'
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(`pro...', 0)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`pro...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`pro...')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`pro...', Array, false)
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\alışveriş\app\Controllers\Cart.php(142): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cart->discount()
+#8 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-11 07:47:49 --> Undefined array key "product_price"
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Cart.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 143)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cart->discount()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-11 07:49:04 --> Undefined array key "product_price"
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Cart.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 143)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cart->discount()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-11 07:49:21 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-11 07:51:45 --> Undefined array key 0
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Cart.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 145)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cart->discount()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-11 07:52:01 --> syntax error, unexpected token ")"
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-11 07:52:20 --> Undefined array key 0
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Cart.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 145)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cart->discount()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

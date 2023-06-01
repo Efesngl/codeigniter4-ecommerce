@@ -1,0 +1,182 @@
+CRITICAL - 2022-12-20 02:53:06 --> Undefined variable $cart_count
+#0 C:\xampp\htdocs\alışveriş\app\Views\includes\header.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 106)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('includes/header', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Views\account\register.php(10): view('includes/header')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('account/registe...', Array, true)
+#8 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(211): view('account/registe...')
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-12-20 03:56:39 --> Undefined variable $cart_count
+#0 C:\xampp\htdocs\alışveriş\app\Views\includes\header.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 106)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('includes/header', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Views\account\register.php(10): view('includes/header')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('account/registe...', Array, true)
+#8 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(211): view('account/registe...')
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-12-20 06:50:18 --> Undefined array key "first_name"
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 214)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-20 06:50:36 --> Undefined array key "first_name"
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 214)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-20 06:51:02 --> Undefined variable $cart_count
+#0 C:\xampp\htdocs\alışveriş\app\Views\includes\header.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 106)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('includes/header', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Views\account\register.php(10): view('includes/header')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('account/registe...', Array, true)
+#8 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(225): view('account/registe...')
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-12-20 06:54:19 --> Undefined array key "data"
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(212): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 212)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-20 06:55:30 --> Cannot use [] for reading
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-20 06:56:26 --> Undefined array key "first_name"
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(212): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 212)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-20 06:56:54 --> Undefined array key 0
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(212): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 212)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-20 06:59:13 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-12-20 07:05:37 --> Duplicate entry '' for key 'email'
+CRITICAL - 2022-12-20 07:05:37 --> Duplicate entry '' for key 'email'
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(220): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-12-20 07:16:39 --> Duplicate entry 'efe20041@gmail.com' for key 'email'
+CRITICAL - 2022-12-20 07:16:39 --> Duplicate entry 'efe20041@gmail.com' for key 'email'
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(220): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-12-20 07:16:44 --> Duplicate entry 'efe20041@gmail.com' for key 'email'
+CRITICAL - 2022-12-20 07:16:44 --> Duplicate entry 'efe20041@gmail.com' for key 'email'
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(220): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-12-20 07:22:34 --> Duplicate entry 'efe20041@gmail.com' for key 'email'
+CRITICAL - 2022-12-20 07:22:34 --> Duplicate entry 'efe20041@gmail.com' for key 'email'
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(221): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-12-20 07:22:46 --> Duplicate entry 'efe20041@gmail.com' for key 'email'
+CRITICAL - 2022-12-20 07:22:46 --> Duplicate entry 'efe20041@gmail.com' for key 'email'
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(221): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-12-20 07:24:24 --> Duplicate entry 'efe20041@gmail.com' for key 'email'
+CRITICAL - 2022-12-20 07:24:24 --> Duplicate entry 'efe20041@gmail.com' for key 'email'
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(221): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

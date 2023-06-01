@@ -1,0 +1,782 @@
+CRITICAL - 2022-10-16 04:23:53 --> syntax error, unexpected token "exit", expecting "," or ";"
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-16 04:23:59 --> Undefined array key "offer_end"
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 115)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 10:16:43 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(130): view('index', Array)
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-16 10:16:48 --> Undefined array key "ID"
+#0 C:\xampp\htdocs\alışveriş\app\Views\index.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 110)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(130): view('index', Array)
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-16 10:16:49 --> Undefined array key "ID"
+#0 C:\xampp\htdocs\alışveriş\app\Views\index.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 110)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(130): view('index', Array)
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-16 10:25:21 --> Object of class App\Models\cart could not be converted to string
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Shop->__construct()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-16 10:25:39 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Shop->__construct()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-16 10:25:40 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Shop->__construct()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-16 10:26:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\alışveriş\app\Views\includes\header.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 106)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('includes/header', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Views\shop\shop.php(153): view('includes/header')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/shop', Array, true)
+#8 C:\xampp\htdocs\alışveriş\app\Controllers\Shop.php(278): view('shop/shop', Array)
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#11 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-10-16 10:27:14 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 10:27:24 --> Object of class App\Models\cart could not be converted to string
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-16 10:27:40 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-16 10:28:22 --> foreach() argument must be of type array|object, int given
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 10:28:22 --> foreach() argument must be of type array|object, int given
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 10:31:21 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\alışveriş\app\Views\includes\header.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 106)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('includes/header', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Views\index.php(9): view('includes/header')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(127): view('index', Array)
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-10-16 10:33:01 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\alışveriş\app\Views\includes\header.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 106)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('includes/header', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Views\index.php(9): view('includes/header')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(127): view('index', Array)
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-10-16 10:33:01 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\alışveriş\app\Views\includes\header.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 106)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('includes/header', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Views\index.php(9): view('includes/header')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(127): view('index', Array)
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-10-16 10:33:15 --> Undefined variable $cart_count
+#0 C:\xampp\htdocs\alışveriş\app\Views\includes\header.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 106)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('includes/header', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Views\index.php(9): view('includes/header')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(127): view('index', Array)
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-10-16 10:33:18 --> Undefined variable $cart_count
+#0 C:\xampp\htdocs\alışveriş\app\Views\includes\header.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 106)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('includes/header', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Views\index.php(9): view('includes/header')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(127): view('index', Array)
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-10-16 10:33:19 --> Undefined variable $cart_count
+#0 C:\xampp\htdocs\alışveriş\app\Views\includes\header.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 106)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('includes/header', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Views\index.php(9): view('includes/header')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(127): view('index', Array)
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-10-16 10:33:28 --> Undefined variable $cart_count
+#0 C:\xampp\htdocs\alışveriş\app\Views\includes\header.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 106)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('includes/header', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Views\index.php(9): view('includes/header')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(127): view('index', Array)
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-10-16 10:33:38 --> count(): Argument #1 ($value) must be of type Countable|array, int given
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('includes/header', Array, true)
+#3 C:\xampp\htdocs\alışveriş\app\Views\index.php(9): view('includes/header')
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#7 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(127): view('index', Array)
+#8 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-10-16 10:33:39 --> count(): Argument #1 ($value) must be of type Countable|array, int given
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('includes/header', Array, true)
+#3 C:\xampp\htdocs\alışveriş\app\Views\index.php(9): view('includes/header')
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#7 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(127): view('index', Array)
+#8 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-10-16 10:34:29 --> Undefined property: App\Controllers\Home::$cart_data
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(490): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 490)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->account()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 10:35:00 --> Undefined variable $cart_count
+#0 C:\xampp\htdocs\alışveriş\app\Views\shop\cart.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(418): view('shop/cart', Array)
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-16 10:35:32 --> Class "App\Models\cart" not found
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Shop->__construct()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-16 10:36:13 --> Undefined property: App\Controllers\Shop::$cart_data
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Shop.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 10:36:27 --> Undefined array key "product"
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Shop.php(349): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 349)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->addTocart()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 10:36:28 --> array_push(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Shop.php(32): array_push(NULL, '1')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Shop->__construct()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 10:36:29 --> array_push(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Shop.php(32): array_push(NULL, '1')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Shop->__construct()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 10:36:29 --> array_push(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Shop.php(32): array_push(NULL, '1')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Shop->__construct()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 10:36:32 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(401): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 401)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 10:36:34 --> array_push(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Shop.php(32): array_push(NULL, '1')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Shop->__construct()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 10:38:00 --> array_push(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Shop.php(32): array_push(NULL, '1')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Shop->__construct()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 10:38:01 --> array_push(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Shop.php(32): array_push(NULL, '1')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Shop->__construct()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 10:38:02 --> array_push(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Shop.php(32): array_push(NULL, '1')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Shop->__construct()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 10:38:36 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(401): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 401)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 10:38:50 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(401): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 401)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 10:39:10 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(401): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 401)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 10:39:11 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(401): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 401)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 10:39:12 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(401): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 401)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 10:39:12 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(401): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 401)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 10:39:19 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(401): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 401)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 10:39:20 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(401): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 401)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 10:39:36 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(401): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 401)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 10:39:37 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(401): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 401)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 10:40:46 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(401): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 401)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 15:20:59 --> Unsupported operand types: array * string
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-16 15:22:28 --> Unsupported operand types: array * string
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-16 15:22:57 --> Illegal offset type
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-16 15:23:22 --> Illegal offset type
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-16 15:23:23 --> Illegal offset type
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-16 15:23:24 --> Illegal offset type
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-16 15:23:24 --> Illegal offset type
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-16 15:23:24 --> Illegal offset type
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-16 15:23:39 --> Illegal offset type
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-16 15:23:40 --> Illegal offset type
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-16 15:23:41 --> Illegal offset type
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-16 15:23:55 --> Illegal offset type
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-16 15:23:56 --> Illegal offset type
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-16 15:24:03 --> Illegal offset type
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-16 15:24:04 --> Illegal offset type
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-16 15:24:05 --> Illegal offset type
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-16 15:24:12 --> Illegal offset type
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-16 15:24:14 --> Undefined variable $cart_count
+#0 C:\xampp\htdocs\alışveriş\app\Views\shop\cart.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(417): view('shop/cart', Array)
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-16 15:25:05 --> Unsupported operand types: array * string
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-16 15:25:06 --> Undefined variable $cart_count
+#0 C:\xampp\htdocs\alışveriş\app\Views\shop\cart.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(417): view('shop/cart', Array)
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-16 15:25:07 --> Undefined variable $cart_count
+#0 C:\xampp\htdocs\alışveriş\app\Views\shop\cart.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(417): view('shop/cart', Array)
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-16 15:26:04 --> Undefined variable $cart_count
+#0 C:\xampp\htdocs\alışveriş\app\Views\shop\cart.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(418): view('shop/cart', Array)
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-16 15:26:05 --> Undefined variable $cart_count
+#0 C:\xampp\htdocs\alışveriş\app\Views\shop\cart.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(418): view('shop/cart', Array)
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-16 15:26:31 --> count(): Argument #1 ($value) must be of type Countable|array, int given
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#3 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(418): view('shop/cart', Array)
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-16 15:26:32 --> count(): Argument #1 ($value) must be of type Countable|array, int given
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#3 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(418): view('shop/cart', Array)
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-16 15:26:44 --> Undefined variable $cart_count
+#0 C:\xampp\htdocs\alışveriş\app\Views\shop\cart.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(418): view('shop/cart', Array)
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-16 15:26:46 --> Undefined variable $cart_count
+#0 C:\xampp\htdocs\alışveriş\app\Views\shop\cart.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(418): view('shop/cart', Array)
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-16 15:31:08 --> Undefined array key 0
+#0 C:\xampp\htdocs\alışveriş\app\Views\shop\cart.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(420): view('shop/cart', Array)
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-16 15:31:14 --> Undefined array key 0
+#0 C:\xampp\htdocs\alışveriş\app\Views\shop\cart.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(420): view('shop/cart', Array)
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-16 15:31:15 --> Undefined array key 0
+#0 C:\xampp\htdocs\alışveriş\app\Views\shop\cart.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(420): view('shop/cart', Array)
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-16 15:31:15 --> Undefined array key 0
+#0 C:\xampp\htdocs\alışveriş\app\Views\shop\cart.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(420): view('shop/cart', Array)
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-16 15:31:16 --> Undefined array key 0
+#0 C:\xampp\htdocs\alışveriş\app\Views\shop\cart.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(420): view('shop/cart', Array)
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-16 15:31:29 --> Undefined variable $product_images
+#0 C:\xampp\htdocs\alışveriş\app\Views\shop\cart.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(420): view('shop/cart', Array)
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-16 15:31:40 --> Undefined array key 0
+#0 C:\xampp\htdocs\alışveriş\app\Views\shop\cart.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(420): view('shop/cart', Array)
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-16 15:31:41 --> Undefined array key 0
+#0 C:\xampp\htdocs\alışveriş\app\Views\shop\cart.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(420): view('shop/cart', Array)
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-16 15:31:42 --> Undefined array key 0
+#0 C:\xampp\htdocs\alışveriş\app\Views\shop\cart.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(420): view('shop/cart', Array)
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-16 15:31:42 --> Undefined array key 0
+#0 C:\xampp\htdocs\alışveriş\app\Views\shop\cart.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(420): view('shop/cart', Array)
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-16 15:32:23 --> Undefined array key 0
+#0 C:\xampp\htdocs\alışveriş\app\Views\shop\cart.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(420): view('shop/cart', Array)
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-16 15:32:39 --> Undefined array key 0
+#0 C:\xampp\htdocs\alışveriş\app\Views\shop\cart.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(420): view('shop/cart', Array)
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-16 15:32:40 --> Undefined array key "image"
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 392)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 15:32:41 --> Undefined array key "image"
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 392)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 15:33:37 --> Undefined property: App\Controllers\Home::$cart_model
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 145)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-16 15:34:06 --> Undefined property: App\Controllers\Home::$cart_model
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Home.php(344): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 344)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

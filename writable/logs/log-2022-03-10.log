@@ -1,0 +1,79 @@
+CRITICAL - 2022-03-10 02:02:26 --> Undefined variable $cart_count
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Views\includes\header.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\YKM Bi...', 110)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\YKM Bi...')
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('includes/header', Array, true)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Views\shop\shop.php(350): view('includes/header')
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\YKM Bi...')
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/shop', Array, true)
+#8 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(20): view('shop/shop')
+#9 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#10 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#11 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#14 {main}
+CRITICAL - 2022-03-10 02:19:29 --> Cannot use object of type mysqli as array
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#5 {main}
+CRITICAL - 2022-03-10 02:19:50 --> Undefined array key "product_images"
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 52)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-10 02:19:59 --> Undefined variable $ì
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Views\shop\shop.php(789): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\YKM Bi...', 789)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\YKM Bi...')
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/shop', Array, true)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(56): view('shop/shop', Array)
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#7 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#10 {main}
+CRITICAL - 2022-03-10 02:39:52 --> array_push(): Argument #1 ($array) must be of type array, null given
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(56): array_push(NULL, '0')
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-10 02:42:54 --> Undefined variable $product_color
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Views\shop\shop.php(784): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\YKM Bi...', 784)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\YKM Bi...')
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/shop', Array, true)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(58): view('shop/shop', Array)
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#7 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#10 {main}
+CRITICAL - 2022-03-10 02:43:06 --> array_push(): Argument #1 ($array) must be of type array, null given
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(50): array_push(NULL, 'K\xC4\xB1rm\xC4\xB1z\xC4\xB1')
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-10 02:43:11 --> array_push(): Argument #1 ($array) must be of type array, null given
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(50): array_push(NULL, 'K\xC4\xB1rm\xC4\xB1z\xC4\xB1')
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}

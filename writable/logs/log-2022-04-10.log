@@ -1,0 +1,32 @@
+CRITICAL - 2022-04-10 04:23:37 --> Undefined variable $endusukfiyat
+#0 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Shop.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\efe20\\...', 206)
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-04-10 04:24:21 --> Undefined array key "product"
+#0 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Shop.php(321): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 321)
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->addTocart()
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-04-10 04:26:28 --> Undefined array key "product"
+#0 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Shop.php(321): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 321)
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->addTocart()
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-04-10 04:29:56 --> Undefined array key "product"
+#0 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Shop.php(321): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 321)
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->addTocart()
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}

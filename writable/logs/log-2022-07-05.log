@@ -1,0 +1,92 @@
+CRITICAL - 2022-07-05 05:57:26 --> Undefined array key "ID"
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Admin\Slider.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 78)
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Slider->is_active()
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slider))
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-07-05 05:59:00 --> Undefined array key "ID"
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Admin\Slider.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 78)
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Slider->is_active()
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slider))
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-07-05 06:12:28 --> Undefined array key "checked"
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Admin\Slider.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 81)
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Slider->is_active()
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slider))
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-07-05 06:12:55 --> Undefined array key "checked"
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Admin\Slider.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 81)
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Slider->is_active()
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slider))
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-07-05 06:14:01 --> Undefined array key "checked"
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Admin\Slider.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 81)
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Slider->is_active()
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slider))
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-07-05 06:14:56 --> Undefined array key "checked"
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Admin\Slider.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 81)
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Slider->is_active()
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slider))
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-07-05 06:15:01 --> Undefined array key "checked"
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Admin\Slider.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 81)
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Slider->is_active()
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slider))
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-07-05 06:15:21 --> Undefined array key "checked"
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Admin\Slider.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 81)
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Slider->is_active()
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slider))
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-07-05 06:16:58 --> Undefined array key "ID"
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Admin\Slider.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 80)
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Slider->is_active()
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slider))
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-07-05 06:17:55 --> Undefined array key "ID"
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Admin\Slider.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 80)
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Slider->is_active()
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slider))
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-07-05 07:57:10 --> Undefined variable $image
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Views\index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\efe20\\...', 22)
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\efe20\\...')
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Home.php(72): view('index', Array)
+#5 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#10 {main}

@@ -1,0 +1,199 @@
+ERROR - 2022-05-28 07:23:14 --> Cannot delete or update a parent row: a foreign key constraint fails (`ecommerce2`.`products`, CONSTRAINT `products_ibfk_4` FOREIGN KEY (`product_category`) REFERENCES `product_categories` (`ID`))
+CRITICAL - 2022-05-28 07:23:14 --> Cannot delete or update a parent row: a foreign key constraint fails (`ecommerce2`.`products`, CONSTRAINT `products_ibfk_4` FOREIGN KEY (`product_category`) REFERENCES `product_categories` (`ID`))
+#0 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Admin\Categories.php(75): CodeIgniter\BaseModel->delete()
+#7 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Categories->category_delete('8')
+#8 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categories))
+#9 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#12 {main}
+ERROR - 2022-05-28 07:27:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-05-28 07:27:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT category...', 0)
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT category...')
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT category...')
+#3 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Admin\Products.php(86): CodeIgniter\Database\BaseConnection->query('SELECT category...')
+#4 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_edit_v('17')
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#6 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#9 {main}
+CRITICAL - 2022-05-28 07:33:01 --> Undefined array key "product_category"
+#0 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Admin\Products.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 92)
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_edit_v('17')
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-05-28 07:33:03 --> Undefined array key "product_category"
+#0 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Admin\Products.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 92)
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_edit_v('17')
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-05-28 07:33:18 --> Undefined array key "product_category"
+#0 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Admin\Products.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 92)
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_edit_v('17')
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-05-28 07:33:19 --> Undefined array key "product_category"
+#0 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Admin\Products.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 92)
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_edit_v('17')
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-05-28 07:33:20 --> Undefined array key "product_category"
+#0 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Admin\Products.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 92)
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_edit_v('17')
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-05-28 07:33:41 --> Undefined array key "product_category"
+#0 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Admin\Products.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 92)
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_edit_v('17')
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-05-28 07:33:42 --> Undefined array key "product_category"
+#0 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Admin\Products.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 92)
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_edit_v('17')
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-05-28 07:34:04 --> Undefined array key "product_name"
+#0 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Admin\Products.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 92)
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_edit_v('17')
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-05-28 07:34:04 --> Undefined array key "product_name"
+#0 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Admin\Products.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 92)
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_edit_v('17')
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#3 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-05-28 08:00:46 --> Class "App\Models\Brands" not found
+#0 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Admin\Brands->__construct()
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#5 {main}
+CRITICAL - 2022-05-28 08:01:08 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/bra...', Array, true)
+#3 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Admin\Brands.php(17): view('Admin/Admin/bra...')
+#4 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Brands->index()
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Brands))
+#6 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#9 {main}
+CRITICAL - 2022-05-28 08:01:09 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/bra...', Array, true)
+#3 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Admin\Brands.php(17): view('Admin/Admin/bra...')
+#4 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Brands->index()
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Brands))
+#6 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#9 {main}
+CRITICAL - 2022-05-28 08:13:42 --> Array to string conversion
+#0 C:\Users\efe20\Desktop\alışveriş\app\Views\Admin\Admin\brands\index.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Users\\efe20\\...', 56)
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\efe20\\...')
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/bra...', Array, true)
+#4 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Admin\Brands.php(27): view('Admin/Admin/bra...', Array)
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Brands->index()
+#6 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Brands))
+#7 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#10 {main}
+CRITICAL - 2022-05-28 08:14:07 --> Undefined variable $ID
+#0 C:\Users\efe20\Desktop\alışveriş\app\Views\Admin\Admin\brands\edit\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\efe20\\...', 37)
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\efe20\\...')
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/bra...', Array, true)
+#4 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Admin\Brands.php(36): view('Admin/Admin/bra...')
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Brands->brand_edit_v('1')
+#6 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Brands))
+#7 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#10 {main}
+CRITICAL - 2022-05-28 08:14:15 --> Undefined variable $ID
+#0 C:\Users\efe20\Desktop\alışveriş\app\Views\Admin\Admin\brands\edit\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\efe20\\...', 37)
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\efe20\\...')
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/bra...', Array, true)
+#4 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Admin\Brands.php(36): view('Admin/Admin/bra...')
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Brands->brand_edit_v('1')
+#6 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Brands))
+#7 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#10 {main}
+CRITICAL - 2022-05-28 08:16:24 --> Undefined array key "brand"
+#0 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Admin\Brands.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 40)
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Brands->brand_edit('1')
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Brands))
+#3 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+ERROR - 2022-05-28 08:19:23 --> Cannot delete or update a parent row: a foreign key constraint fails (`ecommerce2`.`products`, CONSTRAINT `products_ibfk_5` FOREIGN KEY (`product_brand`) REFERENCES `product_brands` (`ID`))
+CRITICAL - 2022-05-28 08:19:23 --> Cannot delete or update a parent row: a foreign key constraint fails (`ecommerce2`.`products`, CONSTRAINT `products_ibfk_5` FOREIGN KEY (`product_brand`) REFERENCES `product_brands` (`ID`))
+#0 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Admin\Brands.php(46): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Brands->brand_delete('5')
+#8 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Brands))
+#9 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#12 {main}
+ERROR - 2022-05-28 08:38:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-05-28 08:38:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT brand fr...', 0)
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT brand fr...')
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT brand fr...')
+#3 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Admin\Products.php(84): CodeIgniter\Database\BaseConnection->query('SELECT brand fr...')
+#4 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_edit_v('6')
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#6 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#9 {main}

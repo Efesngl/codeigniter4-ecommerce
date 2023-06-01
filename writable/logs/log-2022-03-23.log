@@ -1,0 +1,242 @@
+ERROR - 2022-03-23 08:23:25 --> Table 'ecommerce2.product_brands' doesn't exist
+CRITICAL - 2022-03-23 08:23:25 --> Table 'ecommerce2.product_brands' doesn't exist
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT brand fr...', 0)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT brand fr...')
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT brand fr...')
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(155): CodeIgniter\Database\BaseConnection->query('SELECT brand fr...')
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#9 {main}
+ERROR - 2022-03-23 08:38:11 --> Table 'ecommerce2.product_brands' doesn't exist
+CRITICAL - 2022-03-23 08:38:11 --> Table 'ecommerce2.product_brands' doesn't exist
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT brand fr...', 0)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT brand fr...')
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT brand fr...')
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(155): CodeIgniter\Database\BaseConnection->query('SELECT brand fr...')
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#9 {main}
+ERROR - 2022-03-23 08:38:19 --> Table 'ecommerce2.product_brands' doesn't exist
+CRITICAL - 2022-03-23 08:38:19 --> Table 'ecommerce2.product_brands' doesn't exist
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT brand fr...', 0)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT brand fr...')
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT brand fr...')
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(155): CodeIgniter\Database\BaseConnection->query('SELECT brand fr...')
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#9 {main}
+ERROR - 2022-03-23 08:39:00 --> Table 'ecommerce2.product_brands' doesn't exist
+CRITICAL - 2022-03-23 08:39:00 --> Table 'ecommerce2.product_brands' doesn't exist
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT brand fr...', 0)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT brand fr...')
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT brand fr...')
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(155): CodeIgniter\Database\BaseConnection->query('SELECT brand fr...')
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#9 {main}
+ERROR - 2022-03-23 08:39:03 --> Table 'ecommerce2.product_brands' doesn't exist
+CRITICAL - 2022-03-23 08:39:03 --> Table 'ecommerce2.product_brands' doesn't exist
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT brand fr...', 0)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT brand fr...')
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT brand fr...')
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(155): CodeIgniter\Database\BaseConnection->query('SELECT brand fr...')
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#9 {main}
+CRITICAL - 2022-03-23 08:46:07 --> Undefined array key "filteredbrand"
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 56)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+ERROR - 2022-03-23 08:49:36 --> Unknown column 'brand' in 'where clause'
+CRITICAL - 2022-03-23 08:49:36 --> Unknown column 'brand' in 'where clause'
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(57): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#8 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#9 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#12 {main}
+CRITICAL - 2022-03-23 08:58:12 --> Undefined array key "brand"
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 62)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-23 08:59:39 --> Undefined array key "brand"
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 62)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-23 08:59:45 --> Undefined array key "brand"
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 62)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-23 08:59:58 --> Undefined array key "brand"
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 63)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-23 09:02:31 --> array_push(): Argument #1 ($array) must be of type array, null given
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(187): array_push(NULL, 'MSI')
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->filterbybrand('MSI')
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-23 09:07:49 --> Undefined array key "filteredprice"
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Views\shop\shop.php(403): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 403)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\YKM Bi...')
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/shop', Array, true)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(173): view('shop/shop', Array)
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#7 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#10 {main}
+CRITICAL - 2022-03-23 09:08:05 --> Undefined array key "filteredprice"
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Views\shop\shop.php(403): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 403)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\YKM Bi...')
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/shop', Array, true)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(173): view('shop/shop', Array)
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#7 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#10 {main}
+CRITICAL - 2022-03-23 09:08:08 --> Undefined array key "filteredb rand"
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Views\shop\shop.php(404): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 404)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\YKM Bi...')
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/shop', Array, true)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(173): view('shop/shop', Array)
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#7 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#10 {main}
+CRITICAL - 2022-03-23 09:17:47 --> Too few arguments to function App\Controllers\Shop::clearbrandfilter(), 0 passed in C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->clearbrandfilter()
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#5 {main}
+CRITICAL - 2022-03-23 09:18:18 --> Undefined array key 0
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 62)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-23 09:18:40 --> Undefined array key 0
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 62)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-23 09:18:43 --> Undefined array key 0
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 62)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-23 09:18:46 --> Undefined array key 0
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 62)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-23 09:21:31 --> Undefined array key 0
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 62)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-23 09:22:10 --> Undefined array key 0
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 62)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-23 09:22:48 --> Undefined array key 0
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 62)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-23 09:23:26 --> Undefined array key "filteredbrand"
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Views\shop\shop.php(403): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 403)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\YKM Bi...')
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/shop', Array, true)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(173): view('shop/shop', Array)
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#7 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#10 {main}
+CRITICAL - 2022-03-23 09:25:52 --> Undefined array key "filteredbrand"
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Shop.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 187)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->filterbybrand('MSI')
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}

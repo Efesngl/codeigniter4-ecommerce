@@ -1,0 +1,80 @@
+CRITICAL - 2022-02-25 06:33:36 --> Undefined variable $is_defaukt
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Views\account\adress.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\YKM Bi...', 57)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\YKM Bi...')
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('account/adress', Array, true)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Home.php(110): view('account/adress', Array)
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->adress()
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#10 {main}
+CRITICAL - 2022-02-25 06:34:36 --> Undefined array key 1
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Views\account\adress.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 61)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\YKM Bi...')
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('account/adress', Array, true)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Home.php(110): view('account/adress', Array)
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->adress()
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#10 {main}
+CRITICAL - 2022-02-25 06:37:51 --> Array to string conversion
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Home.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Users\\YKM Bi...', 103)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->adress()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-02-25 06:42:57 --> Cannot use object of type stdClass as array
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->adress()
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#5 {main}
+CRITICAL - 2022-02-25 06:43:07 --> Cannot use object of type stdClass as array
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->adress()
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#5 {main}
+CRITICAL - 2022-02-25 07:25:28 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('account/adress', Array, true)
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Home.php(110): view('account/adress', Array)
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->adress()
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#8 {main}
+CRITICAL - 2022-02-25 07:33:22 --> Undefined array key "ID"
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Home.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 100)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->adress()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-02-25 07:39:36 --> Undefined array key "ID"
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Home.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 100)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->adress()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-02-25 07:39:39 --> Undefined array key "ID"
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Home.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 100)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->adress()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}

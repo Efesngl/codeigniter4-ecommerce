@@ -1,0 +1,135 @@
+CRITICAL - 2022-06-19 14:02:39 --> Cannot access offset of type string on string
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): app\Controllers\Admin\Orders->index()
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Admin\Orders))
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#5 {main}
+CRITICAL - 2022-06-19 14:03:13 --> Cannot access offset of type string on string
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): app\Controllers\Admin\Orders->index()
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Admin\Orders))
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#5 {main}
+CRITICAL - 2022-06-19 14:03:14 --> Cannot access offset of type string on string
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): app\Controllers\Admin\Orders->index()
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Admin\Orders))
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#5 {main}
+CRITICAL - 2022-06-19 14:03:15 --> Cannot access offset of type string on string
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): app\Controllers\Admin\Orders->index()
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Admin\Orders))
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#5 {main}
+CRITICAL - 2022-06-19 14:03:42 --> Cannot access offset of type string on string
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): app\Controllers\Admin\Orders->index()
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Admin\Orders))
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#5 {main}
+CRITICAL - 2022-06-19 14:03:43 --> Cannot access offset of type string on string
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): app\Controllers\Admin\Orders->index()
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Admin\Orders))
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#5 {main}
+CRITICAL - 2022-06-19 14:03:44 --> Cannot access offset of type string on string
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): app\Controllers\Admin\Orders->index()
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Admin\Orders))
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#5 {main}
+CRITICAL - 2022-06-19 14:03:54 --> Cannot access offset of type string on string
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): app\Controllers\Admin\Orders->index()
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Admin\Orders))
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#5 {main}
+CRITICAL - 2022-06-19 14:03:55 --> Cannot access offset of type string on string
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): app\Controllers\Admin\Orders->index()
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Admin\Orders))
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#5 {main}
+CRITICAL - 2022-06-19 14:04:09 --> Undefined array key 0
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Admin\Orders.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 42)
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): app\Controllers\Admin\Orders->index()
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Admin\Orders))
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-06-19 14:04:10 --> Undefined array key 0
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Admin\Orders.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 42)
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): app\Controllers\Admin\Orders->index()
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Admin\Orders))
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-06-19 14:04:23 --> Cannot access offset of type string on string
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): app\Controllers\Admin\Orders->index()
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Admin\Orders))
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#5 {main}
+CRITICAL - 2022-06-19 14:04:25 --> Cannot access offset of type string on string
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): app\Controllers\Admin\Orders->index()
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Admin\Orders))
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#5 {main}
+CRITICAL - 2022-06-19 14:04:26 --> Cannot access offset of type string on string
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): app\Controllers\Admin\Orders->index()
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Admin\Orders))
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#5 {main}
+CRITICAL - 2022-06-19 14:04:27 --> Cannot access offset of type string on string
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): app\Controllers\Admin\Orders->index()
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Admin\Orders))
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#5 {main}
+CRITICAL - 2022-06-19 14:05:18 --> Undefined array key 0
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Admin\Orders.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 37)
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): app\Controllers\Admin\Orders->index()
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Admin\Orders))
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-06-19 14:07:59 --> array_push(): Argument #1 ($array) must be of type array, null given
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Admin\Orders.php(35): array_push(NULL, '2')
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): app\Controllers\Admin\Orders->index()
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Admin\Orders))
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-06-19 14:14:22 --> Undefined variable $order_id
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Views\Admin\Admin\orders\index.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\efe20\\...', 91)
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\efe20\\...')
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/ord...', Array, true)
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Admin\Orders.php(43): view('Admin/Admin/ord...', Array)
+#5 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): app\Controllers\Admin\Orders->index()
+#6 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Admin\Orders))
+#7 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#10 {main}

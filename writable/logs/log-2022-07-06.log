@@ -1,0 +1,47 @@
+CRITICAL - 2022-07-06 05:15:32 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/cus...', Array, true)
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Admin\Customers.php(10): view('Admin/Admin/cus...')
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Customers->index()
+#5 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Customers))
+#6 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#9 {main}
+CRITICAL - 2022-07-06 07:36:38 --> Undefined array key "lastname"
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Admin\Customers.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 23)
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Customers->index()
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Customers))
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-07-06 07:36:39 --> Undefined array key "lastname"
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Admin\Customers.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 23)
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Customers->index()
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Customers))
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-07-06 07:53:02 --> Invalid file: Admin/Admin/customer/edit/index.php
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/Admin/cus...')
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/cus...', Array, true)
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Admin\Customers.php(38): view('Admin/Admin/cus...', Array)
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Customers->customer_edit_v('1')
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Customers))
+#5 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#8 {main}
+CRITICAL - 2022-07-06 07:53:06 --> Invalid file: Admin/Admin/customer/edit/index.php
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/Admin/cus...')
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/cus...', Array, true)
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Admin\Customers.php(38): view('Admin/Admin/cus...', Array)
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Customers->customer_edit_v('1')
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Customers))
+#5 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#8 {main}

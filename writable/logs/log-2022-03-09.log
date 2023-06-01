@@ -1,0 +1,209 @@
+CRITICAL - 2022-03-09 01:54:58 --> Unsupported operand types: string + string
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/wishlist', Array, true)
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Home.php(222): view('shop/wishlist', Array)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->wishlist()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#9 {main}
+CRITICAL - 2022-03-09 03:09:54 --> Undefined array key "ID"
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Home.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 166)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->cart()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-09 03:17:57 --> Undefined array key 1
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Views\shop\cart.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 70)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\YKM Bi...')
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Home.php(192): view('shop/cart', Array)
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->cart()
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#10 {main}
+CRITICAL - 2022-03-09 03:19:03 --> Undefined array key 1
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Views\shop\cart.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 71)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\YKM Bi...')
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Home.php(193): view('shop/cart', Array)
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->cart()
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#10 {main}
+CRITICAL - 2022-03-09 03:19:07 --> Undefined array key 1
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Views\shop\cart.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 71)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\YKM Bi...')
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Home.php(193): view('shop/cart', Array)
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->cart()
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#10 {main}
+CRITICAL - 2022-03-09 03:20:21 --> Undefined array key 1
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Views\shop\cart.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 71)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\YKM Bi...')
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Home.php(193): view('shop/cart', Array)
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->cart()
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#10 {main}
+CRITICAL - 2022-03-09 03:26:06 --> Undefined array key 1
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Views\shop\cart.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 89)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\YKM Bi...')
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/cart', Array, true)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Home.php(195): view('shop/cart', Array)
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->cart()
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#10 {main}
+CRITICAL - 2022-03-09 04:36:43 --> Undefined array key "ID"
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Home.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 168)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->cart()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-09 04:42:58 --> Undefined array key 0
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Views\shop\checkout.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 204)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\YKM Bi...')
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/checkout', Array, true)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Home.php(157): view('shop/checkout', Array)
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->checkout()
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#10 {main}
+CRITICAL - 2022-03-09 05:22:46 --> Undefined variable $shippinh_price
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Views\shop\checkout.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\YKM Bi...', 234)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\YKM Bi...')
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/checkout', Array, true)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Home.php(164): view('shop/checkout', Array)
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->checkout()
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#10 {main}
+CRITICAL - 2022-03-09 05:22:52 --> Undefined variable $shippinh_price
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Views\shop\checkout.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\YKM Bi...', 234)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\YKM Bi...')
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/checkout', Array, true)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Home.php(164): view('shop/checkout', Array)
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->checkout()
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#10 {main}
+CRITICAL - 2022-03-09 06:02:43 --> Undefined array key "id"
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\cart.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 28)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\cart->clear_cart()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cart))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-09 06:30:24 --> Array to string conversion
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\cart.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Users\\YKM Bi...', 33)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\cart->delete_item()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cart))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-09 06:33:44 --> Array to string conversion
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\cart.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Users\\YKM Bi...', 33)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\cart->delete_item()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cart))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-09 06:37:16 --> Undefined array key "deneme"
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\cart.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 33)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\cart->delete_item()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cart))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-09 06:39:28 --> Undefined array key "deneme"
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\cart.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 33)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\cart->delete_item()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cart))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-09 06:42:52 --> Object of class stdClass could not be converted to string
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\cart->delete_item()
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cart))
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#5 {main}
+CRITICAL - 2022-03-09 06:54:49 --> Trying to access array offset on value of type null
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\cart.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\YKM Bi...', 34)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\cart->delete_item()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cart))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-09 06:55:05 --> Trying to access array offset on value of type null
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\cart.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\YKM Bi...', 34)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\cart->delete_item()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cart))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-09 06:56:14 --> Trying to access array offset on value of type null
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\cart.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\YKM Bi...', 34)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\cart->delete_item()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cart))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-09 07:28:54 --> Undefined array key "ID"
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Home.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 187)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->cart()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-03-09 08:32:32 --> Class "Iyzipay\Options" not found
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Payment->index()
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#5 {main}

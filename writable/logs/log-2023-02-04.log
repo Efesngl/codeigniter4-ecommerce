@@ -1,0 +1,24 @@
+CRITICAL - 2023-02-04 00:40:41 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\alışveriş\public\index.php(28): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2023-02-04 00:44:21 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\alışveriş\public\index.php(28): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2023-02-04 00:44:26 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\alışveriş\public\index.php(28): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2023-02-04 00:44:59 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\alışveriş\public\index.php(28): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2023-02-04 00:44:59 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\alışveriş\public\index.php(28): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2023-02-04 00:45:04 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\alışveriş\public\index.php(28): require('C:\\xampp\\htdocs...')
+#2 {main}

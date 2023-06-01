@@ -1,0 +1,43 @@
+CRITICAL - 2022-05-11 09:18:33 --> Undefined array key "categories"
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Admin\Categories.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\YKM Bi...', 50)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Admin\Categories.php(59): App\Controllers\Admin\buildCategory(0, Array)
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Categories->index()
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categories))
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#7 {main}
+CRITICAL - 2022-05-11 09:19:01 --> Cannot access offset of type string on string
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Admin\Categories.php(59): App\Controllers\Admin\buildCategory(0, Array)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Categories->index()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categories))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}
+CRITICAL - 2022-05-11 09:20:34 --> foreach() argument must be of type array|object, string given
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Admin\Categories.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\Users\\YKM Bi...', 45)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Admin\Categories.php(59): App\Controllers\Admin\buildCategory(0, Array)
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Categories->index()
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categories))
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#7 {main}
+CRITICAL - 2022-05-11 09:20:36 --> foreach() argument must be of type array|object, string given
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Admin\Categories.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\Users\\YKM Bi...', 45)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Admin\Categories.php(59): App\Controllers\Admin\buildCategory(0, Array)
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Categories->index()
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categories))
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#7 {main}
+CRITICAL - 2022-05-11 09:20:45 --> Cannot access offset of type string on string
+#0 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\app\Controllers\Admin\Categories.php(59): App\Controllers\Admin\buildCategory(0, Array)
+#1 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Categories->index()
+#2 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categories))
+#3 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\YKM Bilişim Agent 5\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\YKM Bi...')
+#6 {main}

@@ -1,0 +1,28 @@
+CRITICAL - 2022-03-07 06:43:22 --> Undefined variable $cart_count
+#0 C:\Users\efe20\Desktop\alışveriş\app\Views\shop\checkout.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\efe20\\...', 187)
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\efe20\\...')
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/checkout', Array, true)
+#4 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Home.php(138): view('shop/checkout', Array)
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->checkout()
+#6 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#10 {main}
+CRITICAL - 2022-03-07 07:48:48 --> Undefined variable $cart_count
+#0 C:\Users\efe20\Desktop\alışveriş\app\Views\includes\header.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\efe20\\...', 110)
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\efe20\\...')
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('includes/header', Array, true)
+#4 C:\Users\efe20\Desktop\alışveriş\app\Views\shop\shop.php(350): view('includes/header')
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\efe20\\...')
+#6 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('shop/shop', Array, true)
+#8 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Home.php(106): view('shop/shop')
+#9 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->shop()
+#10 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#14 {main}

@@ -1,0 +1,109 @@
+CRITICAL - 2023-05-22 07:04:23 --> File not found: C:\xampp\tmp
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('C:\\xampp\\tmp')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('C:\\xampp\\tmp', true)
+#2 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Slider.php(90): CodeIgniter\Images\Handlers\BaseHandler->withFile('C:\\xampp\\tmp')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Slider->add_slider()
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slider))
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-22 07:04:26 --> File not found: C:\xampp\tmp
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('C:\\xampp\\tmp')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('C:\\xampp\\tmp', true)
+#2 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Slider.php(90): CodeIgniter\Images\Handlers\BaseHandler->withFile('C:\\xampp\\tmp')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Slider->add_slider()
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slider))
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-22 07:04:38 --> File not found: C:\xampp\tmp
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('C:\\xampp\\tmp')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('C:\\xampp\\tmp', true)
+#2 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Slider.php(88): CodeIgniter\Images\Handlers\BaseHandler->withFile('C:\\xampp\\tmp')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Slider->add_slider()
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slider))
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-22 07:12:08 --> gd-webp cannot get webp info
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-22 07:12:38 --> gd-webp cannot get webp info
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-22 07:17:52 --> File not found: C:\xampp\htdocs\alışveriş\public/assets/img/slideri3x7tnc8rrj71.jpg
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('C:\\xampp\\htdocs...', true)
+#2 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Slider.php(89): CodeIgniter\Images\Handlers\BaseHandler->withFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Slider->add_slider()
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slider))
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-22 07:17:59 --> File not found: C:\xampp\htdocs\alışveriş\public/assets/img/slideri3x7tnc8rrj71_1.jpg
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('C:\\xampp\\htdocs...', true)
+#2 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Slider.php(89): CodeIgniter\Images\Handlers\BaseHandler->withFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Slider->add_slider()
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slider))
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-22 07:18:25 --> File not found: C:\xampp\htdocs\alışveriş\public/assets/img/slideri3x7tnc8rrj71.jpg
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('C:\\xampp\\htdocs...', true)
+#2 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Slider.php(89): CodeIgniter\Images\Handlers\BaseHandler->withFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Slider->add_slider()
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slider))
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-22 07:18:59 --> File not found: C:\xampp\htdocs\alışveriş\public/assets/img/slideri3x7tnc8rrj71_1.jpg
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('C:\\xampp\\htdocs...', true)
+#2 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Slider.php(92): CodeIgniter\Images\Handlers\BaseHandler->withFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Slider->add_slider()
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slider))
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-22 07:19:37 --> imagecreatefrompng(): &quot;C:\xampp\htdocs\alışveriş\public/assets/img/slider/i3x7tnc8rrj71.jpg&quot; is not a valid PNG file
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagecreatefrom...', 'C:\\xampp\\htdocs...', 351)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Images\Handlers\GDHandler.php(351): imagecreatefrompng('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Images\Handlers\GDHandler.php(312): CodeIgniter\Images\Handlers\GDHandler->getImageResource('C:\\xampp\\htdocs...', 3)
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Images\Handlers\GDHandler.php(226): CodeIgniter\Images\Handlers\GDHandler->ensureResource()
+#4 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Slider.php(94): CodeIgniter\Images\Handlers\GDHandler->save('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Slider->add_slider()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slider))
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-22 07:21:17 --> finfo_file(C:\xampp\tmp\php4191.tmp): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(C:\\x...', 'C:\\xampp\\htdocs...', 109)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Files\File.php(109): finfo_file(Object(finfo), 'C:\\xampp\\tmp\\ph...')
+#2 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Slider.php(93): CodeIgniter\Files\File->getMimeType()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Slider->add_slider()
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slider))
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-22 08:41:51 --> CodeIgniter\Images\Handlers\BaseHandler::convert(): Argument #1 ($imageType) must be of type int, string given, called in C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Slider.php on line 95
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Slider.php(95): CodeIgniter\Images\Handlers\BaseHandler->convert('image/jpeg')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Slider->add_slider()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slider))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-22 08:47:46 --> gd-webp cannot get webp info
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-22 09:05:16 --> gd-webp cannot get webp info
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-22 09:20:27 --> Undefined array key 0
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Slider.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Slider->slider_delete()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slider))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

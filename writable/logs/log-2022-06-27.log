@@ -1,0 +1,22 @@
+CRITICAL - 2022-06-27 08:00:11 --> syntax error, unexpected end of file
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/ord...', Array, true)
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Admin\Orders.php(59): view('Admin/Admin/ord...', Array)
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): app\Controllers\Admin\Orders->index()
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Admin\Orders))
+#5 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#8 {main}
+CRITICAL - 2022-06-27 08:14:08 --> Undefined variable $pagination_number
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Views\Admin\Admin\orders\index.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\efe20\\...', 120)
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\efe20\\...')
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/ord...', Array, true)
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Admin\Orders.php(59): view('Admin/Admin/ord...', Array)
+#5 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): app\Controllers\Admin\Orders->index()
+#6 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Admin\Orders))
+#7 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#10 {main}

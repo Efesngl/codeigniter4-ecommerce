@@ -1,0 +1,64 @@
+CRITICAL - 2022-06-03 11:42:33 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/efe/Masaüstü/alışveriş/spark(45): require('...')
+#2 {main}
+CRITICAL - 2022-06-03 11:42:33 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/CLI/CLI.php:758
+Stack trace:
+#0 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/CLI/CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/CLI/CLI.php(1000): CodeIgniter\CLI\CLI::init()
+#2 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(264): include_once('...')
+#3 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 /home/efe/Masaüstü/alışveriş/app/Views/errors/cli/error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('...')
+#7 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render()
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#10 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-03 11:43:28 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/efe/Masaüstü/alışveriş/spark(45): require('...')
+#2 {main}
+CRITICAL - 2022-06-03 11:43:28 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/CLI/CLI.php:758
+Stack trace:
+#0 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/CLI/CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/CLI/CLI.php(1000): CodeIgniter\CLI\CLI::init()
+#2 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(264): include_once('...')
+#3 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 /home/efe/Masaüstü/alışveriş/app/Views/errors/cli/error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('...')
+#7 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render()
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#10 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-03 11:43:58 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/efe/Masaüstü/alışveriş/spark(45): require('...')
+#2 {main}
+CRITICAL - 2022-06-03 11:43:58 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/CLI/CLI.php:758
+Stack trace:
+#0 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/CLI/CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/CLI/CLI.php(1000): CodeIgniter\CLI\CLI::init()
+#2 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(264): include_once('...')
+#3 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 /home/efe/Masaüstü/alışveriş/app/Views/errors/cli/error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('...')
+#7 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render()
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#10 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-03 11:45:36 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/efe/Masaüstü/alışveriş/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/efe/Masaüstü/alışveriş/spark(45): require('...')
+#2 {main}

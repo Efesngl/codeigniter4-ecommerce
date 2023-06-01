@@ -1,0 +1,60 @@
+CRITICAL - 2023-03-13 08:54:58 --> This feature is not available for the database you are using.
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Cart.php(139): CodeIgniter\Database\BaseConnection->callFunction('mysqli_get_disc...', 'deneme_100', '1')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cart->discount()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-13 09:17:28 --> This feature is not available for the database you are using.
+#0 C:\xampp\htdocs\alışveriş\app\Controllers\Cart.php(139): CodeIgniter\Database\BaseConnection->callFunction('mysqli_get_disc...', 'deneme_100', '1')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cart->discount()
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-03-13 09:20:09 --> Unknown column 'deneme_100' in 'field list'
+ERROR - 2023-03-13 09:20:25 --> Unknown column 'deneme_100' in 'field list'
+ERROR - 2023-03-13 09:21:42 --> Unknown column 'deneme_100' in 'field list'
+ERROR - 2023-03-13 09:21:51 --> Unknown column 'deneme_100' in 'field list'
+ERROR - 2023-03-13 09:21:53 --> Unknown column 'deneme_100' in 'field list'
+ERROR - 2023-03-13 09:22:04 --> Unknown column 'deneme_100' in 'field list'
+CRITICAL - 2023-03-13 09:22:04 --> Unknown column 'deneme_100' in 'field list'
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('CALL get_discou...', 0)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('CALL get_discou...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CALL get_discou...')
+#3 C:\xampp\htdocs\alışveriş\app\Controllers\Cart.php(138): CodeIgniter\Database\BaseConnection->query('CALL get_discou...')
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cart->discount()
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-03-13 09:22:33 --> Unknown column 'deneme_100' in 'field list'
+ERROR - 2023-03-13 09:25:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET @p1='1'; CALL `get_discount`(@p0, @p1)' at line 1
+ERROR - 2023-03-13 09:25:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET @p1='1'; CALL `get_discount`(@p0, @p1)' at line 1
+ERROR - 2023-03-13 09:35:03 --> Incorrect number of arguments for PROCEDURE ecommerce2.get_discount; expected 3, got 2
+ERROR - 2023-03-13 09:35:26 --> Incorrect number of arguments for PROCEDURE ecommerce2.get_discount; expected 3, got 2
+ERROR - 2023-03-13 09:40:11 --> Incorrect number of arguments for PROCEDURE ecommerce2.get_discount; expected 3, got 2
+ERROR - 2023-03-13 09:40:27 --> OUT or INOUT argument 3 for routine ecommerce2.get_discount is not a variable or NEW pseudo-variable in BEFORE trigger
+ERROR - 2023-03-13 09:59:12 --> Incorrect number of arguments for PROCEDURE ecommerce2.get_discount; expected 3, got 2
+ERROR - 2023-03-13 09:59:27 --> OUT or INOUT argument 3 for routine ecommerce2.get_discount is not a variable or NEW pseudo-variable in BEFORE trigger
+ERROR - 2023-03-13 10:02:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select oDiscountedTotal' at line 1
+ERROR - 2023-03-13 10:02:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select @oDiscountedTotal' at line 1
+ERROR - 2023-03-13 10:03:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET @p1='1'; SET @p2=''; CALL `get_discount`(@p0, @p1, @p2); SELECT @p2 AS `o...' at line 1
+ERROR - 2023-03-13 10:05:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET @p1=1; SET @p2=''; CALL `get_discount`(@p0, @p1, @p2); SELECT @p2 AS `oDi...' at line 1
+ERROR - 2023-03-13 10:06:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET @p1=1; SET @p2=''; CALL `get_discount`(@p0, @p1, @p2); SELECT @p2 AS `oDi...' at line 1
+ERROR - 2023-03-13 10:06:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET @p1=1; SET @p2=''; CALL `get_discount`(@p0, @p1, @p2); SELECT @p2 AS `oDi...' at line 1
+CRITICAL - 2023-03-13 10:29:10 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cart->discount()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-13 10:29:24 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cart->discount()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-03-13 10:33:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1)' at line 1
+ERROR - 2023-03-13 10:34:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1)' at line 1
+ERROR - 2023-03-13 18:12:17 --> Unknown column 'shopping_cart' in 'field list'

@@ -1,0 +1,86 @@
+CRITICAL - 2023-04-12 17:32:54 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /mnt/c/xampp/htdocs/alışveriş/spark(45): require('/mnt/c/xampp/ht...')
+#2 {main}
+CRITICAL - 2023-04-12 17:32:54 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/CLI/CLI.php:758
+Stack trace:
+#0 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/CLI/CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/CLI/CLI.php(1000): CodeIgniter\CLI\CLI::init()
+#2 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(264): include_once('/mnt/c/xampp/ht...')
+#3 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 /mnt/c/xampp/htdocs/alışveriş/app/Views/errors/cli/error_exception.php(
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-04-12 17:40:43 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /mnt/c/xampp/htdocs/alışveriş/spark(45): require('/mnt/c/xampp/ht...')
+#2 {main}
+CRITICAL - 2023-04-12 17:40:43 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/CLI/CLI.php:758
+Stack trace:
+#0 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/CLI/CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/CLI/CLI.php(1000): CodeIgniter\CLI\CLI::init()
+#2 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(264): include_once('/mnt/c/xampp/ht...')
+#3 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 /mnt/c/xampp/htdocs/alışveriş/app/Views/errors/cli/error_exception.php(
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-04-12 10:05:00 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-12 10:05:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#3 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#4 /mnt/c/xampp/htdocs/alışveriş/app/Controllers/Home.php(45): CodeIgniter\BaseModel->find()
+#5 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#6 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#7 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mnt/c/xampp/htdocs/alışveriş/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/mnt/c/xampp/ht...')
+#10 {main}
+ERROR - 2023-04-12 10:05:18 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-12 10:05:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#3 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#4 /mnt/c/xampp/htdocs/alışveriş/app/Controllers/Home.php(45): CodeIgniter\BaseModel->find()
+#5 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#6 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#7 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mnt/c/xampp/htdocs/alışveriş/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/mnt/c/xampp/ht...')
+#10 {main}
+ERROR - 2023-04-12 10:05:21 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-12 10:05:21 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#3 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#4 /mnt/c/xampp/htdocs/alışveriş/app/Controllers/Home.php(45): CodeIgniter\BaseModel->find()
+#5 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#6 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#7 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mnt/c/xampp/htdocs/alışveriş/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/mnt/c/xampp/ht...')
+#10 {main}
+ERROR - 2023-04-12 10:05:22 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-12 10:05:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#3 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#4 /mnt/c/xampp/htdocs/alışveriş/app/Controllers/Home.php(45): CodeIgniter\BaseModel->find()
+#5 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#6 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#7 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mnt/c/xampp/htdocs/alışveriş/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /mnt/c/xampp/htdocs/alışveriş/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/mnt/c/xampp/ht...')
+#10 {main}

@@ -1,0 +1,12 @@
+ERROR - 2022-03-21 14:08:48 --> Table 'ecommerce2.product_brand' doesn't exist
+CRITICAL - 2022-03-21 14:08:48 --> Table 'ecommerce2.product_brand' doesn't exist
+#0 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT brand fr...', 0)
+#1 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT brand fr...')
+#2 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT brand fr...')
+#3 C:\Users\efe20\Desktop\alışveriş\app\Controllers\Shop.php(154): CodeIgniter\Database\BaseConnection->query('SELECT brand fr...')
+#4 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Shop->index()
+#5 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#6 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\efe20\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\efe20\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#9 {main}

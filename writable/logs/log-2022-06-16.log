@@ -1,0 +1,32 @@
+CRITICAL - 2022-06-16 20:58:31 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\spark(45): require('C:\\Users\\efe20\\...')
+#2 {main}
+CRITICAL - 2022-06-16 20:59:01 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\spark(45): require('C:\\Users\\efe20\\...')
+#2 {main}
+CRITICAL - 2022-06-16 20:59:10 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\spark(45): require('C:\\Users\\efe20\\...')
+#2 {main}
+CRITICAL - 2022-06-16 21:00:12 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\spark(45): require('C:\\Users\\efe20\\...')
+#2 {main}
+CRITICAL - 2022-06-16 14:04:34 --> CodeIgniter\HTTP\RedirectResponse::back(): Argument #1 ($code) must be of type ?int, string given, called in C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Home.php on line 104
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Home.php(104): CodeIgniter\HTTP\RedirectResponse->back('giris')
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2022-06-16 14:04:48 --> CodeIgniter\HTTP\RedirectResponse::back(): Argument #1 ($code) must be of type ?int, string given, called in C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Home.php on line 104
+#0 C:\Users\efe20\OneDrive\Desktop\alışveriş\app\Controllers\Home.php(104): CodeIgniter\HTTP\RedirectResponse->back('giris')
+#1 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#2 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Desktop\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Desktop\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
