@@ -32,10 +32,10 @@ class Database extends Config
      */
     public $default = [
         'DSN'      => '',
-        'hostname' => 'localhost',
-        'username' => 'root',
-        'password' => '',
-        'database' => 'ecommerce2',
+        'hostname' => 'db-mysql-fra1-80107-do-user-12695508-0.b.db.ondigitalocean.com',
+        'username' => 'doadmin',
+        'password' => 'AVNS_aXmNpvy3uSyV3wMQ0JB',
+        'database' => 'ecommerce',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
@@ -47,7 +47,7 @@ class Database extends Config
         'compress' => false,
         'strictOn' => false,
         'failover' => [],
-        'port'     => 3306,
+        'port'     => 25060,
     ];
 
     /**
