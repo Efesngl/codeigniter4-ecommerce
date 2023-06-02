@@ -70,11 +70,11 @@ $routes->group("market",function($routes){
 $routes->add("sepet","Cart::index");
 $routes->group("sepet",function($routes){
     $routes->add('sepetOnayla','Home::checkout');
-    $routes->add('urunadet/(:any)/(:any)', 'cart::quantity/$1/$2');
-    $routes->add('sepetTemizle', 'cart::clear_cart');
-    $routes->add('urunKaldir/(:num)', 'cart::delete_item/$1');
-    $routes->add("odemeYap","cart::payment");
-    $routes->add("odemeSonuc/(:any)","cart::status/$1");
+    $routes->add('urunadet/(:any)/(:any)', 'Cart::quantity/$1/$2');
+    $routes->add('sepetTemizle', 'Cart::clear_cart');
+    $routes->add('urunKaldir/(:num)', 'Cart::delete_item/$1');
+    $routes->add("odemeYap","Cart::payment");
+    $routes->add("odemeSonuc/(:any)","Cart::status/$1");
     $routes->add("indirimKodu","Cart::set_discount");
     $routes->add("indirimKoduKaldir","Cart::remove_discount");
 });
