@@ -29,8 +29,8 @@ class Iyzico
     public function payment(array $arr)
     {
         $options = new \Iyzipay\Options();
-        $options->setApiKey("sandbox-cVMVfhCWUI5hdYyOXdpYQFEXtsWLCywC");
-        $options->setSecretKey("sandbox-AQVe8NbRa9HkktruzYyiA8MTeKcFp7aR");
+        $options->setApiKey("your key here");
+        $options->setSecretKey("your key here");
         $options->setBaseUrl("https://sandbox-api.iyzipay.com");
                 
         $request = new \Iyzipay\Request\CreatePaymentRequest();
