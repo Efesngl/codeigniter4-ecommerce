@@ -1,0 +1,413 @@
+CRITICAL - 2023-06-27 10:52:01 --> Undefined variable $site_settings
+#0 C:\xampp\htdocs\alışveriş\app\Views\Admin\Admin\includes\head.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/inc...', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Views\Admin\Admin\brands\add\index.php(4): view('Admin/Admin/inc...')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/bra...', Array, true)
+#8 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Brands.php(94): view('Admin/Admin/bra...')
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Brands->brand_add_v()
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Brands))
+#11 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-06-27 10:54:35 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\xampp\\htdocs...', 176)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(176): mkdir('C:\\xampp\\htdocs...', 511, true)
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(339): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-06-27 10:54:38 --> unlink(assets/img/product/product2.webp): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/i...', 'C:\\xampp\\htdocs...', 366)
+#1 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(366): unlink('assets/img/prod...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_image_delete()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-06-27 10:54:42 --> Undefined variable $site_settings
+#0 C:\xampp\htdocs\alışveriş\app\Views\Admin\Admin\includes\head.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/inc...', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Views\Admin\Admin\products\product_comments\index.php(4): view('Admin/Admin/inc...')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/pro...', Array, true)
+#8 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(418): view('Admin/Admin/pro...', Array)
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_comments('50')
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#11 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-06-27 10:54:50 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\xampp\\htdocs...', 176)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(176): mkdir('C:\\xampp\\htdocs...', 511, true)
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(339): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-06-27 10:57:28 --> Undefined variable $site_settings
+#0 C:\xampp\htdocs\alışveriş\app\Views\Admin\Admin\includes\head.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/inc...', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Views\Admin\Admin\products\product_comments\index.php(4): view('Admin/Admin/inc...')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/pro...', Array, true)
+#8 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(418): view('Admin/Admin/pro...', Array)
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_comments('50')
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#11 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-27 10:57:33 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\xampp\\htdocs...', 176)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(176): mkdir('C:\\xampp\\htdocs...', 511, true)
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(339): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-27 10:59:22 --> unlink(assets/img/product/product2.webp): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/i...', 'C:\\xampp\\htdocs...', 366)
+#1 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(366): unlink('assets/img/prod...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_image_delete()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-27 10:59:44 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\xampp\\htdocs...', 176)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(176): mkdir('C:\\xampp\\htdocs...', 511, true)
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(339): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-27 11:01:24 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\xampp\\htdocs...', 176)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(176): mkdir('C:\\xampp\\htdocs...', 511, true)
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(339): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-27 11:01:29 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\xampp\\htdocs...', 176)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(176): mkdir('C:\\xampp\\htdocs...', 511, true)
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(339): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-27 11:03:33 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\xampp\\htdocs...', 176)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(176): mkdir('C:\\xampp\\htdocs...', 511, true)
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(339): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-27 11:03:38 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-06-27 11:05:40 --> unlink(assets/img/product/Xİaomi redmi note 8 pro 128gb 64mp/user-139-48.png): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/i...', 'C:\\xampp\\htdocs...', 366)
+#1 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(366): unlink('assets/img/prod...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_image_delete()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-27 11:07:59 --> move_uploaded_file(C:\xampp\htdocs\alışveriş\public/assets/img/product/RubaTrend Kalıcı Takma Tırnak Badem Şekilli Model Set 24 Adet ): Failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', 'C:\\xampp\\htdocs...', 339)
+#1 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(339): move_uploaded_file('C:\\xampp\\tmp\\ph...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-27 11:09:19 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\xampp\\htdocs...', 339)
+#1 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(339): mkdir('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-27 11:09:43 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\xampp\\htdocs...', 339)
+#1 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(339): mkdir('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-27 11:09:46 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\xampp\\htdocs...', 339)
+#1 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(339): mkdir('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-27 11:10:10 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\xampp\\htdocs...', 339)
+#1 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(339): mkdir('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-27 11:10:49 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\xampp\\htdocs...', 339)
+#1 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(339): mkdir('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-27 11:12:56 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\xampp\\htdocs...', 340)
+#1 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(340): mkdir('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-27 11:13:11 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\xampp\\htdocs...', 340)
+#1 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(340): mkdir('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-27 11:13:22 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\xampp\\htdocs...', 341)
+#1 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(341): mkdir('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-27 11:13:28 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\xampp\\htdocs...', 341)
+#1 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(341): mkdir('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-27 11:13:28 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\xampp\\htdocs...', 341)
+#1 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(341): mkdir('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-27 11:13:56 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\xampp\\htdocs...', 341)
+#1 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(341): mkdir('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-27 11:13:57 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\xampp\\htdocs...', 341)
+#1 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(341): mkdir('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-27 11:14:01 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\xampp\\htdocs...', 341)
+#1 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(341): mkdir('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-27 11:14:01 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\xampp\\htdocs...', 341)
+#1 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(341): mkdir('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-27 11:14:24 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\xampp\\htdocs...', 341)
+#1 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(341): mkdir('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-27 11:14:25 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\xampp\\htdocs...', 341)
+#1 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(341): mkdir('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-27 11:14:25 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\xampp\\htdocs...', 341)
+#1 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(341): mkdir('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-27 11:14:25 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\xampp\\htdocs...', 341)
+#1 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(341): mkdir('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_images('50')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-27 11:23:38 --> syntax error, unexpected identifier "file"
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-27 11:31:43 --> Undefined variable $site_settings
+#0 C:\xampp\htdocs\alışveriş\app\Views\Admin\Admin\includes\head.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/inc...', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Views\Admin\Admin\products\product_comments\index.php(4): view('Admin/Admin/inc...')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/pro...', Array, true)
+#8 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(418): view('Admin/Admin/pro...', Array)
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_comments('3')
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#11 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-27 11:32:12 --> Only arrays and Traversables can be unpacked
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_comments('3')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-06-27 11:32:13 --> Only arrays and Traversables can be unpacked
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_comments('3')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-06-27 11:32:40 --> Only arrays and Traversables can be unpacked
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_comments('3')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-06-27 11:32:41 --> Only arrays and Traversables can be unpacked
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_comments('3')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-06-27 11:32:42 --> Only arrays and Traversables can be unpacked
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_comments('3')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-06-27 11:32:56 --> Only arrays and Traversables can be unpacked
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_comments('3')
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-06-27 11:37:29 --> Undefined variable $site_settings
+#0 C:\xampp\htdocs\alışveriş\app\Views\Admin\Admin\includes\head.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/inc...', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Views\Admin\Admin\products\product_comments\index.php(4): view('Admin/Admin/inc...')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/pro...', Array, true)
+#8 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Products.php(421): view('Admin/Admin/pro...', Array)
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Products->product_comments('3')
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#11 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-27 11:38:42 --> Undefined variable $site_settings
+#0 C:\xampp\htdocs\alışveriş\app\Views\Admin\Admin\includes\head.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/inc...', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Views\Admin\Admin\brands\add\index.php(4): view('Admin/Admin/inc...')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/bra...', Array, true)
+#8 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Brands.php(94): view('Admin/Admin/bra...')
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Brands->brand_add_v()
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Brands))
+#11 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-27 11:39:59 --> Undefined variable $site_settings
+#0 C:\xampp\htdocs\alışveriş\app\Views\Admin\Admin\includes\head.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/inc...', Array, true)
+#4 C:\xampp\htdocs\alışveriş\app\Views\Admin\Admin\customers\edit\index.php(4): view('Admin/Admin/inc...')
+#5 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/cus...', Array, true)
+#8 C:\xampp\htdocs\alışveriş\app\Controllers\Admin\Customers.php(76): view('Admin/Admin/cus...', Array)
+#9 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Customers->customer_edit_v('1')
+#10 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Customers))
+#11 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-27 11:40:37 --> Only arrays and Traversables can be unpacked
+#0 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\SiteSettings->index()
+#1 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SiteSettings))
+#2 C:\xampp\htdocs\alışveriş\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alışveriş\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
