@@ -1,0 +1,191 @@
+CRITICAL - 2023-07-13 11:59:46 --> Only arrays and Traversables can be unpacked
+#0 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\SiteSettings->index()
+#1 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SiteSettings))
+#2 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#5 {main}
+CRITICAL - 2023-07-13 11:59:46 --> Only arrays and Traversables can be unpacked
+#0 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\SiteSettings->index()
+#1 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SiteSettings))
+#2 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#5 {main}
+CRITICAL - 2023-07-13 12:00:20 --> Only arrays and Traversables can be unpacked
+#0 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\SiteSettings->index()
+#1 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SiteSettings))
+#2 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#5 {main}
+CRITICAL - 2023-07-13 12:01:32 --> Undefined array key 0
+#0 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\app\Controllers\Admin\Admin.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 93)
+#1 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->index()
+#2 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2023-07-13 12:01:43 --> Undefined array key 0
+#0 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\app\Controllers\Admin\Admin.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 93)
+#1 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->index()
+#2 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2023-07-13 12:01:44 --> Undefined array key 0
+#0 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\app\Controllers\Admin\Admin.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 93)
+#1 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->index()
+#2 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2023-07-13 12:02:03 --> Undefined array key "ay"
+#0 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\app\Controllers\Admin\Admin.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 94)
+#1 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->index()
+#2 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2023-07-13 12:02:04 --> Undefined array key "ay"
+#0 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\app\Controllers\Admin\Admin.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 94)
+#1 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->index()
+#2 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2023-07-13 12:02:33 --> Undefined array key 0
+#0 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\app\Controllers\Admin\Admin.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 93)
+#1 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->index()
+#2 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2023-07-13 12:02:34 --> Undefined array key 0
+#0 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\app\Controllers\Admin\Admin.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 93)
+#1 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->index()
+#2 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2023-07-13 12:02:35 --> Undefined array key 0
+#0 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\app\Controllers\Admin\Admin.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 93)
+#1 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->index()
+#2 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2023-07-13 12:02:35 --> Undefined array key 0
+#0 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\app\Controllers\Admin\Admin.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 93)
+#1 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->index()
+#2 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2023-07-13 12:02:35 --> Undefined array key 0
+#0 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\app\Controllers\Admin\Admin.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 93)
+#1 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->index()
+#2 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2023-07-13 12:03:38 --> number_format(): Passing null to parameter #1 ($num) of type float is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'number_format()...', 'C:\\Users\\efe20\\...', 82)
+#1 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\app\Views\Admin\Admin\index.php(82): number_format(NULL, 2, '.', ',')
+#2 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\efe20\\...')
+#3 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/ind...', Array, true)
+#5 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\app\Controllers\Admin\Admin.php(108): view('Admin/Admin/ind...', Array)
+#6 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->index()
+#7 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#8 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#11 {main}
+CRITICAL - 2023-07-13 12:03:39 --> number_format(): Passing null to parameter #1 ($num) of type float is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'number_format()...', 'C:\\Users\\efe20\\...', 82)
+#1 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\app\Views\Admin\Admin\index.php(82): number_format(NULL, 2, '.', ',')
+#2 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\efe20\\...')
+#3 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Admin/ind...', Array, true)
+#5 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\app\Controllers\Admin\Admin.php(108): view('Admin/Admin/ind...', Array)
+#6 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->index()
+#7 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#8 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#11 {main}
+CRITICAL - 2023-07-13 12:04:41 --> Undefined array key 0
+#0 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\app\Controllers\Admin\Admin.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 60)
+#1 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->index()
+#2 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2023-07-13 12:04:46 --> Undefined array key 0
+#0 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\app\Controllers\Admin\Admin.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 67)
+#1 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->index()
+#2 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2023-07-13 12:04:48 --> Undefined array key 0
+#0 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\app\Controllers\Admin\Admin.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 60)
+#1 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->index()
+#2 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2023-07-13 12:05:05 --> Undefined array key 0
+#0 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\app\Controllers\Admin\Admin.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 60)
+#1 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->index()
+#2 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2023-07-13 12:08:00 --> Undefined array key "ay"
+#0 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\app\Controllers\Admin\Admin.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 62)
+#1 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->index()
+#2 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2023-07-13 12:09:17 --> Undefined array key 0
+#0 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\app\Controllers\Admin\Admin.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 60)
+#1 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->index()
+#2 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2023-07-13 12:09:18 --> Undefined array key 0
+#0 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\app\Controllers\Admin\Admin.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 60)
+#1 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->index()
+#2 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}
+CRITICAL - 2023-07-13 12:09:26 --> Undefined array key 0
+#0 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\app\Controllers\Admin\Admin.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\efe20\\...', 60)
+#1 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->index()
+#2 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\efe20\OneDrive\Belgeler\GitHub\ecommerce\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\efe20\\...')
+#6 {main}

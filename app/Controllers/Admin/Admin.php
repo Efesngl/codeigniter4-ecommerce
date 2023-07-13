@@ -57,15 +57,19 @@ class Admin extends Controller{
                 $data=[
                     1=>0,2=>0,3=>0,4=>0,5=>0,6=>0,7=>0,8=>0,9=>0,10=>0,11=>0,12=>0
                 ];
-                $montly_sale=$this->orders_model->select("count(*) as 'count',month(order_date) as 'ay'")->groupBy("month(order_date)")->findAll()[0];
-                $data[$montly_sale["ay"]]=$montly_sale["count"];
+                $montly_sale=$this->orders_model->select("count(*) as 'count',month(order_date) as 'ay'")->groupBy("month(order_date)")->findAll();
+                if(count($montly_sale)!=0){
+                    $data[$montly_sale[0]["ay"]]=$montly_sale[0]["count"];
+                }
             }
             else{
                 $data=[
                     2012=>0,2013=>0,2014=>0,2015=>0,2016=>0,2017=>0,2018=>0,2019=>0,2020=>0,2021=>0,2022=>0,2023=>0
                 ];
-                $yearly_sale=$this->orders_model->select("count(*) as 'count',year(order_date) as 'yıl'")->groupBy("month(order_date)")->findAll()[0];
-                $data[$yearly_sale["yıl"]]=$yearly_sale["count"];
+                $yearly_sale=$this->orders_model->select("count(*) as 'count',year(order_date) as 'yıl'")->groupBy("month(order_date)")->findAll();
+                if(count($yearly_sale)!=0){
+                    $data[$yearly_sale[0]["yıl"]]=$yearly_sale[0]["count"];
+                }
             }
             echo json_encode($data);
             die();
@@ -75,8 +79,8 @@ class Admin extends Controller{
             ...$this->admin_user_info,
             ...$this->site_settings,
             "total_order"=>$this->orders_model->countAllResults(),
-            "total_earning"=>$this->orders_model->select("sum(order_total) as 'total'")->find()[0]["total"],
-            "ortalama_fiyat"=>$this->orders_model->select("avg(order_total) as 'avg'")->find()[0]["avg"],
+            "total_earning"=>$this->orders_model->select("sum(order_total) as 'total'")->find()[0]["total"] ?? 0,
+            "ortalama_fiyat"=>$this->orders_model->select("avg(order_total) as 'avg'")->find()[0]["avg"] ?? 0,
             "motnhs"=>[1,2,3,4,5,6,7,8,9,10,11,12],
             "montly_sale"=>[0,0,0,0,0,0,0,0,0,0,0,0],
             "montly_earning"=>$this->orders_model->select("sum(order_total) as 'total'")->where("month(order_date)",date("n"))->find()[0]["total"] ?? 0,
@@ -90,8 +94,10 @@ class Admin extends Controller{
             ->findAll("5"),
             "order_statuses"=>$order_status_model->findAll()
         ];
-        $montly_sale=$this->orders_model->select("count(*) as 'count',month(order_date) as 'ay'")->groupBy("month(order_date)")->findAll()[0];
-        $data["montly_sale"][$montly_sale["ay"]-1]=$montly_sale["count"];
+        $montly_sale=$this->orders_model->select("count(*) as 'count',month(order_date) as 'ay'")->groupBy("month(order_date)")->findAll();
+        if(count($montly_sale)!=0){
+            $data["montly_sale"][$montly_sale[0]["ay"]-1]=$montly_sale[0]["count"];
+        }
         if($data["last_month_earning"]!=0){
             try{
                 $data["diff_from_last_month"]=($data["montly_earning"]-$data["last_month_earning"])*100/$data["last_month_earning"];

@@ -22,8 +22,20 @@ class SiteSettings extends Controller
         $this->site_settings=["site_settings"=>$this->site_general->select("logo,favicon")->find(1)];
         $this->view_folder = "Admin/Admin/site_general/";
     }
+    public function is_logged(){
+        
+        if(!session()->has("admin_logged") && !session()->has("admin_logged_user")){
+            return false;
+        }
+        
+        $this->admin_user_info=["user"=>$this->admin_user->select("username")->where("ID",session()->get("admin_logged_user"))->find()[0]];
+        return true;
+    }
     public function index()
     {
+        if(!$this->is_logged()){
+            return redirect()->to("admin");
+        }
         $data = [
             "site_general" => $this->site_general->select("logo,favicon,footer_text,copyright,header_text")->find(1),
             ...$this->admin_user_info,
