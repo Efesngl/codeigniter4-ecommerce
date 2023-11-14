@@ -73,11 +73,6 @@ CREATE TABLE `addresses` (
 -- Tablo döküm verisi `addresses`
 --
 
-INSERT INTO `addresses` (`ID`, `customer_id`, `address_name`, `city`, `full_address`, `phone_number`, `picker_first_name`, `picker_last_name`) VALUES
-(1, 1, 'Ev', '35', 'Şükrükaraduman caddesi no:139 daire:1', '05497262663', 'Efe', 'Şengül'),
-(6, 2, 'ev', '35', 'dağ', '5497262663', 'cemal', 'mustafaoğlu'),
-(9, 31, 'ev', '35', 'şükrü karaduman caddesi no:139 daire:1', '5497262663', 'efe', 'şengül');
-
 -- --------------------------------------------------------
 
 --
@@ -239,13 +234,6 @@ CREATE TABLE `customer` (
 -- Tablo döküm verisi `customer`
 --
 
-INSERT INTO `customer` (`ID`, `first_name`, `last_name`, `full_name`, `email`, `password`, `ip`) VALUES
-(1, 'Efe', 'Şengül', 'Efe Şengül', 'asd@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', ''),
-(2, 'cemal', 'mustafaoğlu', 'Cemal Mustafaoğlu', 'sdf@gmail.com', '81dc9bdb52d04dc20036dbd8313ed055', ''),
-(30, 'Niyazi', 'Büyükerdoğan', 'Niyazi Büyükerdoğan', 'konyalisikici31@gmail.com', '34e20ed6eea10eac70d7edd2d1fa4dd5', ''),
-(31, 'efe', 'şengül', 'efe şengül', 'efe20041@gmail.com', '81dc9bdb52d04dc20036dbd8313ed055', ''),
-(78, 'efe', 'şengül', 'efe şengül', 'ipdeneme@gmail.com', '81dc9bdb52d04dc20036dbd8313ed055', '127.0.0.1'),
-(79, 'Efe ', 'Şengül ', 'Efe  Şengül ', 'efe20041ip@gmail.com', '81dc9bdb52d04dc20036dbd8313ed055', '192.168.0.50');
 
 -- --------------------------------------------------------
 
@@ -336,11 +324,6 @@ CREATE TABLE `orders` (
 -- Tablo döküm verisi `orders`
 --
 
-INSERT INTO `orders` (`ID`, `customer_id`, `order_date`, `order_status`, `order_total`, `payment_id`, `is_discounted`, `used_discount_code`, `address`, `picker_name`) VALUES
-(42, 31, '2023-06-01 14:23:24', 2, 97999.99, 19637201, 0, '', 'şükükaraduman caddesi no:139 daire:1', 'efe şengül'),
-(44, 31, '2023-06-01 14:24:10', 1, 84999.99, 19637216, 1, 'deneme50', 'şükükaraduman caddesi no:139 daire:1', 'efe şengül'),
-(45, 2, '2023-06-01 14:28:23', 4, 77999.99, 19637228, 1, 'deneme50', 'şükükaraduman caddesi no:139 daire:1', 'efe şengül');
-
 --
 -- Tetikleyiciler `orders`
 --
@@ -367,14 +350,6 @@ CREATE TABLE `order_products` (
 -- Tablo döküm verisi `order_products`
 --
 
-INSERT INTO `order_products` (`ID`, `order_id`, `product`, `quantity`, `order_product_price`) VALUES
-(68, 42, 3, 1, 74999.99),
-(69, 42, 6, 1, 3000),
-(70, 42, 4, 1, 20000),
-(73, 44, 3, 2, 74999.99),
-(74, 44, 4, 1, 10000),
-(75, 45, 3, 2, 74999.99),
-(76, 45, 6, 2, 3000);
 
 -- --------------------------------------------------------
 
@@ -519,9 +494,6 @@ CREATE TABLE `product_comments` (
 -- Tablo döküm verisi `product_comments`
 --
 
-INSERT INTO `product_comments` (`ID`, `product_id`, `comment`, `star`, `customer_id`, `date`) VALUES
-(8, 6, 'ne iyi ne kötü', 3, 6, '2023-05-09'),
-(9, 6, 'çok iyimiş', 5, 1, '2023-05-09');
 
 -- --------------------------------------------------------
 
@@ -683,7 +655,7 @@ CREATE TABLE `social_media` (
 --
 
 INSERT INTO `social_media` (`ID`, `instagram`, `facebook`, `twitter`, `youtube`, `tiktok`, `site_url`) VALUES
-(1, 'instagram.com', 'facebook.com', '#', '#', '#', 'http://efesengul.com');
+(1, 'instagram.com', 'facebook.com', '#', '#', '#', '#');
 
 -- --------------------------------------------------------
 
@@ -703,7 +675,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`ID`, `username`, `email`, `password`) VALUES
-(1, 'efe', 'efe@gmail.com', 'e10adc3949ba59abbe56e057f20f883e');
+(1, 'admin', 'admin@admin.com', 'e10adc3949ba59abbe56e057f20f883e');
 
 -- --------------------------------------------------------
 
@@ -721,14 +693,6 @@ CREATE TABLE `wishlist` (
 -- Tablo döküm verisi `wishlist`
 --
 
-INSERT INTO `wishlist` (`ID`, `customer_id`, `product_id`) VALUES
-(32, '1', 6),
-(34, '1', 4),
-(35, '1', 3),
-(68, '1', 6),
-(69, '1', 3),
-(82, '3', 3),
-(83, '3', 6);
 
 --
 -- Dökümü yapılmış tablolar için indeksler
