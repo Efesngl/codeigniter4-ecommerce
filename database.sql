@@ -6,7 +6,6 @@
 -- Üretim Zamanı: 01 Haz 2023, 18:06:39
 -- Sunucu sürümü: 10.4.27-MariaDB
 -- PHP Sürümü: 8.2.0
-SET SQL_REQUIRE_PRIMARY_KEY=OFF;
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
