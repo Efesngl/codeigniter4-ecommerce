@@ -1,13 +1,31 @@
-# php-ecommerce
-## tr
-php codeigniter ile e-ticaret sitesi
-- Siteyi kullanmak için öncelikle bilgisayarınızda composer kurulu olması lazım.
-- Sitenin klasörünü açıp ana dizinde cmd açmanız lazım. Cmd açtıktan sonra 'composer install --ignore-platform-reqs' komuut ile proje gereksinimlerini indiriyoruz.
-- Bu işlemden sonra ana dizinde bulunan 'db.sql' adlı dosyayı mysql(veya tercihiniz olan bir veirtabanına) veritabanında içeri aktarmamız lazım. Sonrasında ise kendi veritabani ayarlarınıza göre 'app/Config/Database.php' dosyasını değiştirin.
-- Bu işlemleri yaptıktan sonra ana dizinde tekrar cmd açıp 'php spark serve' komutunu çalıştırın. Projemiz 'http://localhost:8080' portundan çalışacaktır.
-## en
-php e-commerce app with codeigniter
-- Firstly you need composer to installed on your computer. 
-- In the root of the folder you need to install cmd and run that command 'composer install --ignore-platform-reqs' for install dependencies.
-- After that you need to import 'db.sql' to mysql or your choices of database. After you import that you need to configure 'app/Config/Database.php' file based on your database settings.
-- After these steps open cmd in the root of the folder and run 'php spark serve' command for run the project.
+
+# Codeingier ecommerce project
+
+An ecomemrce project written with codeigniter 4.
+
+
+## Dependencies
+
+In order to run this project you need to these in installed in your device
+
+`PHP` `Composer` `MYSQL`
+
+  
+## Installation 
+
+For the run this project install dependencies run these commands on the root of the project:
+
+```bash 
+    composer install --ignore-plaform-reqs
+```
+    
+## How to run
+
+- import the 'db.sql' file that located in the root of the project in your database.
+- Update 'app/Config/Database.php' file according to your database
+- Open a cmd in the root of the project and run:
+```bash
+    php spark serve
+```
+
+  
