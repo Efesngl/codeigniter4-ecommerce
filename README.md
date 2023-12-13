@@ -1,5 +1,5 @@
 
-# Codeingier ecommerce project
+# Codeigniter ecommerce project
 
 An ecomemrce project written with codeigniter 4.
 
