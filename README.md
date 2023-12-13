@@ -1,7 +1,7 @@
 
 # Codeigniter ecommerce project
 
-An ecomemrce project written with codeigniter 4.
+An ecomerce project written with codeigniter 4.
 
 
 ## Dependencies
