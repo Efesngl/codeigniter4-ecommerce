@@ -1,0 +1,112 @@
+ERROR - 2025-03-03 19:11:10 --> Error connecting to the database: No such file or directory
+CRITICAL - 2025-03-03 19:11:10 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `phone_n...', Array, false)
+#2 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#4 /home/efe/projects/codeigniter4-ecommerce/app/Controllers/Home.php(43): CodeIgniter\BaseModel->find(1)
+#5 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#6 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#7 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/efe/projects/codeigniter4-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/efe/proje...')
+#10 {main}
+ERROR - 2025-03-03 19:14:57 --> Error connecting to the database: No such file or directory
+CRITICAL - 2025-03-03 19:14:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `phone_n...', Array, false)
+#2 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#4 /home/efe/projects/codeigniter4-ecommerce/app/Controllers/Home.php(43): CodeIgniter\BaseModel->find(1)
+#5 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#6 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#7 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/efe/projects/codeigniter4-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/efe/proje...')
+#10 {main}
+ERROR - 2025-03-03 19:14:59 --> Error connecting to the database: No such file or directory
+CRITICAL - 2025-03-03 19:14:59 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `phone_n...', Array, false)
+#2 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#4 /home/efe/projects/codeigniter4-ecommerce/app/Controllers/Home.php(43): CodeIgniter\BaseModel->find(1)
+#5 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#6 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#7 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/efe/projects/codeigniter4-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/efe/proje...')
+#10 {main}
+ERROR - 2025-03-03 19:19:13 --> Error connecting to the database: No such file or directory
+CRITICAL - 2025-03-03 19:19:13 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `phone_n...', Array, false)
+#2 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#4 /home/efe/projects/codeigniter4-ecommerce/app/Controllers/Home.php(43): CodeIgniter\BaseModel->find(1)
+#5 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#6 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#7 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/efe/projects/codeigniter4-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/efe/proje...')
+#10 {main}
+ERROR - 2025-03-03 19:19:14 --> Error connecting to the database: No such file or directory
+CRITICAL - 2025-03-03 19:19:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `phone_n...', Array, false)
+#2 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#4 /home/efe/projects/codeigniter4-ecommerce/app/Controllers/Home.php(43): CodeIgniter\BaseModel->find(1)
+#5 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#6 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#7 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/efe/projects/codeigniter4-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/efe/proje...')
+#10 {main}
+ERROR - 2025-03-03 19:19:45 --> Error connecting to the database: No such file or directory
+CRITICAL - 2025-03-03 19:19:45 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `phone_n...', Array, false)
+#2 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#4 /home/efe/projects/codeigniter4-ecommerce/app/Controllers/Home.php(43): CodeIgniter\BaseModel->find(1)
+#5 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#6 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#7 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/efe/projects/codeigniter4-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/efe/proje...')
+#10 {main}
+ERROR - 2025-03-03 19:19:46 --> Error connecting to the database: No such file or directory
+CRITICAL - 2025-03-03 19:19:46 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `phone_n...', Array, false)
+#2 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#4 /home/efe/projects/codeigniter4-ecommerce/app/Controllers/Home.php(43): CodeIgniter\BaseModel->find(1)
+#5 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#6 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#7 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/efe/projects/codeigniter4-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/efe/proje...')
+#10 {main}
+CRITICAL - 2025-03-03 19:25:01 --> Class "App\Models\cart" not found
+#0 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Account->__construct()
+#1 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/efe/projects/codeigniter4-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/efe/proje...')
+#5 {main}
+CRITICAL - 2025-03-03 19:26:37 --> Class "App\Models\cart" not found
+#0 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Wishlist->__construct()
+#1 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/efe/projects/codeigniter4-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/efe/projects/codeigniter4-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/efe/proje...')
+#5 {main}

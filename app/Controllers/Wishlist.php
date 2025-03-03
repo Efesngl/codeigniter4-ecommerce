@@ -20,7 +20,7 @@ class Wishlist extends BaseController{
     {
         $this->db = \Config\Database::connect();
         $this->product_model = new \App\Models\Products();
-        $this->cart_model = new \App\Models\cart();
+        $this->cart_model = new \App\Models\Cart();
         $this->customer_model = new \App\Models\Customer();
         $this->wishlist_model = new \App\Models\Wishlist();
         $this->contact_info=new \App\Models\Contact_info();

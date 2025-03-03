@@ -27,7 +27,7 @@ class Account extends BaseController
     public function __construct()
     {
         $this->db = \Config\Database::connect();
-        $this->cart_model = new \App\Models\cart();
+        $this->cart_model = new \App\Models\Cart();
         $this->customer_model = new \App\Models\Customer();
         $this->orders_model = new \App\Models\Orders();
         $this->address_model = new \App\Models\Addresses();

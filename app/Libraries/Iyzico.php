@@ -18,7 +18,7 @@ class Iyzico
     {
         $this->product_model= new \App\Models\Products();
         $this->db= \Config\Database::connect();
-        $this->cart_model=new \App\Models\cart();
+        $this->cart_model=new \App\Models\Cart();
         $this->customer_model=new \App\Models\Customer();
         $this->address_model=new \App\Models\Addresses();
         $this->orders_model=new \App\Models\Orders();
