@@ -1,31 +1,28 @@
-
 # Codeigniter e-commerce project
 
 An e-commerce project written with codeigniter 4.
-
 
 ## Dependencies
 
 In order to run this project you need to these in installed in your device
 
-`PHP` `Composer` `MYSQL`
+`PHP` `Composer` `MYSQL` `Docker(Optional)`
 
-  
-## Installation 
+## Installation
 
 For the run this project install dependencies run these commands on the root of the project:
 
-```bash 
+```bash
     composer install --ignore-plaform-reqs
+    docker compose up
 ```
-    
+
 ## How to run
 
 - import the 'db.sql' file that located in the root of the project in your database.
 - Update 'app/Config/Database.php' file according to your database
 - Open a cmd in the root of the project and run:
+
 ```bash
     php spark serve
 ```
-
-  
